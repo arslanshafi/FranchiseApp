@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "b250c67d-cd0a-43ad-b676-ef43ba8b2ad0",
+		"name": "FranchiseApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateFranchise",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n  \"applicantName\": \"Arslan Shafi\",\r\n  \"idNumber\": \"237-124-192\",\r\n  \"birthDate\": \"1988-12-25\",\r\n  \"contactAddress\": \"Lahore\",\r\n  \"contactEmail\": \"ch.arslanshafi@gmail.com\",\r\n  \"contactphone\": \"+92 3337643477\",\r\n  \"previousBusinessExperience\": \"none\",\r\n  \"brandInterest\": \"Nojoom\",\r\n  \"plannedInvestmentAmount\" : 1.25,\r\n  \"geographicalAreaToOperate\" : \"Doha\",\r\n  \"additionalNotes\": \"None\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8081/api/v1/franchise",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"franchise"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllFranchises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8081/api/v1/franchises",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"franchises"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
