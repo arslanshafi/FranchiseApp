@@ -1,6 +1,6 @@
 # Franchise Rest API
 
-Please change the MySql Connection details in application.properties file.
+Change MySql Connection details in application.properties file.
 Database Name: franchisedb
 You have to create the database, JPA will create the tables on the fly.
 
