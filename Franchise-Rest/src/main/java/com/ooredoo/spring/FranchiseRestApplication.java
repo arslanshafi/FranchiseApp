@@ -13,8 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 		"com.ooredoo.spring",
 		"com.ooredoo.persistence.model",
 		"com.ooredoo.service",
-		"com.ooredoo.util",
-		"com.ooredoo.exception"})
+		"com.ooredoo.util"})
 public class FranchiseRestApplication {
 
 	public static void main(String[] args) {
